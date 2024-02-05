@@ -99,3 +99,33 @@ a {
 button:hover{
   cursor: pointer;  
 }
+
+
+/* Main chap first */
+.main{
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.season-title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  margin: 55px 0;
+}
+.seasons{
+  display: flex;
+  justify-content: space-around;
+}
+.season-border{
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+  height: 250px;
+  margin-bottom: 12px;
+}
+.season{
+  width: 250px;
+}
+.season-description{
+  text-align: center;
+}
