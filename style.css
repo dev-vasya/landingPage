@@ -36,6 +36,7 @@ a {
 }
 *{
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* Header */
@@ -104,7 +105,7 @@ button:hover{
 /* Main chap first */
 .section-season{
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 70px auto 170px;
 }
 .season-title{
   text-align: center;
@@ -131,6 +132,7 @@ button:hover{
 .season-description{
   text-align: center;
 }
+
 /* second section */
 .section-quote__wrapper{
   background-color: #E5E7EB;
@@ -152,3 +154,31 @@ button:hover{
   font-size: 32px;
   font-weight: 600;
 }
+
+/* section sign up */
+.section-signUp{
+  max-width: 1200px;
+  margin: 70px auto;
+  padding: 36px 109px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+}
+.signUp-title{
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+.signUp-btn{
+  padding: 2px 42px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #3882F6;
+  border-color: white;
+  border-radius: 10px;
+  border-style:  ridge;
+}
+
